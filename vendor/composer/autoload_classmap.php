@@ -658,6 +658,7 @@ return array(
     'Monolog\\Processor\\UidProcessor' => $vendorDir . '/monolog/monolog/src/Monolog/Processor/UidProcessor.php',
     'Monolog\\Processor\\WebProcessor' => $vendorDir . '/monolog/monolog/src/Monolog/Processor/WebProcessor.php',
     'Normalizer' => $vendorDir . '/patchwork/utf8/class/Normalizer.php',
+    'OnepagerController' => $baseDir . '/app/controllers/OnepagerController.php',
     'PHPParser_Autoloader' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Autoloader.php',
     'PHPParser_Builder' => $vendorDir . '/nikic/php-parser/lib/PHPParser/Builder.php',
     'PHPParser_BuilderAbstract' => $vendorDir . '/nikic/php-parser/lib/PHPParser/BuilderAbstract.php',
@@ -1576,4 +1577,7 @@ return array(
     'Whoops\\Provider\\Zend\\ExceptionStrategy' => $vendorDir . '/filp/whoops/src/Whoops/Provider/Zend/ExceptionStrategy.php',
     'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => $vendorDir . '/filp/whoops/src/Whoops/Provider/Zend/RouteNotFoundStrategy.php',
     'Whoops\\Run' => $vendorDir . '/filp/whoops/src/Whoops/Run.php',
+    'dflydev\\markdown\\IMarkdownParser' => $vendorDir . '/dflydev/markdown/src/dflydev/markdown/IMarkdownParser.php',
+    'dflydev\\markdown\\MarkdownExtraParser' => $vendorDir . '/dflydev/markdown/src/dflydev/markdown/MarkdownExtraParser.php',
+    'dflydev\\markdown\\MarkdownParser' => $vendorDir . '/dflydev/markdown/src/dflydev/markdown/MarkdownParser.php',
 );

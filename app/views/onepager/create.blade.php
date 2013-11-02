@@ -12,8 +12,8 @@
     <link rel="stylesheet" type="text/css" href="/bower_components/sir-trevor-js/sir-trevor-icons.css">
 </head>
 <body>
-    <form>
-        <textarea class="js-st-instance" name="sirtrevor"><?= !empty($_GET['sirtrevor'])?$_GET['sirtrevor']:''; ?></textarea>
+    <form method="post" action="/onepager">
+        <textarea class="js-st-instance" name="sirtrevor">{{ $sirTrevorJson }}</textarea>
         <input type="submit">
     </form>
     <script>
