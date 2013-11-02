@@ -27,7 +27,7 @@ class OnepagerController extends \BaseController {
 	public function create()
 	{
         $sirTrevorJson = file_get_contents(storage_path() . '/sirtrevor.json');
-		return View::make('onepager/create', ['sirTrevorJson' => $sirTrevorJson]);
+		return View::make('onepager/create', array('sirTrevorJson' => $sirTrevorJson));
 	}
 
 	/**
